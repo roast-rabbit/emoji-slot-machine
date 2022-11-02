@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+.row h1 {
+  font-size: 48px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.hidden {
+  display: none;
+}
+#fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.actions {
+  display: flex;
+  /* justify-content: center; */
+  gap: 10px;
+}
+button {
+  display: inline-block;
+}
+
+.btn {
+  color: #000;
+  background-color: rgb(192, 237, 255);
+}
+.btn:hover,
+.btn:active {
+  color: #000;
+  background-color: rgb(139, 196, 218);
+}
