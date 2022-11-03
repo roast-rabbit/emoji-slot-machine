@@ -28,7 +28,7 @@ const SlotMachine = function () {
   this.lastUpdate;
   this.payTable = 0;
 
-  this.balance = 5;
+  this.balance = 10;
 };
 
 /**
