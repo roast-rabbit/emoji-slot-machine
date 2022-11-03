@@ -7,7 +7,7 @@
 const SlotMachine = function () {
   this.HALT_STATE = -1;
 
-  this.gameMode;
+  this.gameMode = "random";
   this.currentState = 0;
 
   this.items = [
